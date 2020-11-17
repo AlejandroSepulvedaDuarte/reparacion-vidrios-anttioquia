@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:blue;
+}
+.container{
+    width: 100%;
+    
+    background: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.superior {
+    background-image: url(../images/auto.jpg);
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    box-sizing:border-box;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    padding: 5px;
+    height: auto;
+}
+.menu{
+    overflow: hidden;
+    float: left;
+    padding: 5px;
+    margin: 2px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+    padding: .3em;
+    
+    margin: 2px;
+}
+.opciones li a{
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+.opciones li a:hover{
+    background: #063169;
+}
+.activo{
+    background-color: rgb(117, 3, 3) ;
+}
+.cuerpo{
+    overflow: hidden;
+    padding: 10px;
+}
+.caja{
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.caja img{
+    padding: .1em;
+    float: right;
+    width: 100%;
+    height: auto;
+} 
+.texto{
+    display: block;
+    float: left;
+    z-index: 5;
+    bottom: 0px;
+    text-align: justify;
+    width: 50%;
+    height: 15%;
+    padding: .3em;
+    font-size: 15px;
+    color: rgb(85, 5, 5);
+}
+.pie{
+    background-color: rgb(119, 11, 16);
+    overflow: hidden;
+    color: white;
+    height: 60px;
+
+}
+
+.pie img{
+    padding: 5px;
+    float: left;
+    margin-top: 5px;
+}
+.pie img:hover{
+    background: blue;
+}
+    
+.pie p{
+    margin-left: 10px;
+    font-size: 12px;
+} 
+.siguenos{
+    float: left;
+    padding: 5px;
+}   
+.texto2{
+    display: block;
+    float: left;
+    z-index: 5;
+    bottom: 0px;
+    text-align: justify;
+    width: 50%;
+    height: 15%;
+    padding: .3em;
+    font-size: 15px;
+    color: rgb(85, 5, 5);
+}
+.caja1{
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.caja1 img{
+    padding: .1em;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 900px){
+    .contenedor{
+        width: 90%;
+    }
+    section{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    section{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width: 510px){
+    .contenedor{
+        width: 100%;
+    }
+    .superior img{
+        width: 50%;
+        height: 50%;
+        
+    }
+}
+
+    
+
